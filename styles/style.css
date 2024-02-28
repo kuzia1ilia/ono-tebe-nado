@@ -1,102 +1,72 @@
 /* место для вашего кода */
 
-header {
+.header {
   margin-top: 92px;
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 96px;
   display: flex;
+  height: 104.65px;
 }
 
-.main_1 {
-  color: #000;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  stroke-width: 1px;
-  stroke: #000;
-  margin-top: 44px;
-  margin-left: 26px;
-  margin-right: 21px;
-  margin-bottom: 46px;
-}
-.point_1 {
-  width: 7px;
-  height: 7px;
-  flex-shrink: 0;
-  stroke-width: 1px;
-  stroke: #000;
-  margin-top: 52px;
-  margin-left: 13, 45px;
-  margin-right: 8px;
-  margin-bottom: 46px;
-  display: grid;
-  place-items: center;
-}
-.main_2 {
-  color: #000;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.18px;
+
+.header_links_list {
+  /*list-style-position: inside;*/
+  list-style-type: circle;
+  display: flex;
   margin-top: 44px;
   margin-bottom: 46px;
-  text-decoration: underline;
-}
-.point_2 {
-  width: 7px;
-  height: 7px;
-  flex-shrink: 0;
-  stroke-width: 1px;
-  stroke: #000;
-  margin-top: 52px;
-  margin-bottom: 46px;
-  margin-left: 13px;
-  margin-right: 8px;
-  display: grid;
-  place-items: center;
-}
-.main_3 {
-  color: #000;
+  padding-left: 26.52px;
+  color: rgb(0, 0, 0);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.18px;
-  margin-top: 44px;
-  margin-right: 21px;
-  margin-bottom: 46px;
-  text-decoration: underline;
+  line-height: 21px;
+  letter-spacing: 0%;
+
 }
 
-.logotip {
-  width: 148px;
-  height: 105px;
-  flex-shrink: 0;
+.header__links-list-item_no-bullit,
+.header__link_active {
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+.header__links-list-item {
+  margin-left: 13.5px;
+  text-underline-position: under;
+  padding-left: 20px;
+}
+
+.header__logo {
   margin-right: 185px;
   margin-left: 36px;
 }
-.contact {
+
+.header__logotip_img {
+  width: 148px;
+  height: 104.65px;
+}
+
+
+.address {
   color: #000;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px; /* 135% */
-  margin-right: 28px;
+  margin-top: 5px;
+  text-underline-position: under;
 }
-.section_fon {
+
+.cover{
   position: relative;
   width: 1100px;
   height: 757px;
-  flex-shrink: 0;
   opacity: 0.6;
-  background: #000;
+  background: rgb(0, 0, 0)
 }
 
 .fon_img {
@@ -435,7 +405,6 @@ header {
 }
 .none_dash {
   text-decoration: none;
-  
 }
 .dash {
   text-decoration: underline;
@@ -446,4 +415,3 @@ header {
   line-height: 21px;
   letter-spacing: 0%;
 }
-
