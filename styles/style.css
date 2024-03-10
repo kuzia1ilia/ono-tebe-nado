@@ -1,8 +1,7 @@
 
 .header {
-  margin: 92px 24px 96px 24px; 
+  margin: 92px 24px 95.19px 24px; 
   display: flex;
-  max-height: 104.65px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
 }
@@ -11,14 +10,12 @@
   list-style-type: circle;
   display: flex;
   margin-top: 44px;
-  margin-bottom: 46px;
   padding-left: 26.52px;
   color: rgb(0, 0, 0);
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0%;
   gap: 32px;
 }
 
@@ -39,8 +36,7 @@
 .header__logotip_img {
   width: 148px;
   height: 104.65px;
-  display: block;
-  
+  display: block;  
 }
 
 .address {
@@ -143,7 +139,7 @@
   max-width: 256px;
   min-height: 51px;
   border: 1px solid #fff;
-  padding: 11px 26px 12px 31px;
+  padding: 11px 31px 12px 31px;
   color: #fff;
   text-align: center;
   font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -179,7 +175,7 @@
   display: flex;
   padding-top: 27px;
   list-style-type: none;
-  column-gap: 25px; 
+  gap: 25px; 
   flex-wrap: wrap;
 }
 
@@ -213,7 +209,6 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
   text-transform: uppercase;
@@ -231,7 +226,6 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
   padding-left: 40px;
   padding-bottom: 48px;
@@ -284,7 +278,6 @@
   border-radius: 50%;
   width: 240px;
   height: 240px;
-  bottom: 0;
   background: rgb(0, 0, 0);
   margin-top: 35px;
   margin-left: 47px;
@@ -300,7 +293,6 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
-  letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
   padding-top: 136px;
@@ -333,12 +325,8 @@
 }
 
 .footer__adress {
-  color: #000;
-  font-family: Raleway, Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24.3px;
+  margin: 0;
+  min-width: auto;
 
 }
 
@@ -361,10 +349,11 @@
 
 .footer__social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   list-style-type: none;
-  gap: 48px;
+  gap: 12px 48px;
   flex-wrap: wrap;
+  max-width: 240px;
 }
 
 .footer__social-list-item {
