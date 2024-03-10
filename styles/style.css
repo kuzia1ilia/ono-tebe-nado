@@ -209,7 +209,7 @@
 
 .card__title {
   color: rgb(255, 255, 255);
-  font-family: Raleway;
+  font-family: Raleway Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 120%;
@@ -316,7 +316,7 @@
 
 .about__text {
   color: rgb(0, 0, 0);
-  font-family: Raleway;
+  font-family: Raleway Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
